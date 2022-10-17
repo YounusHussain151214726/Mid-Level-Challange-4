@@ -1,0 +1,100 @@
+:root {
+  /* ### Primary */
+
+  --Dark-cyan: hsl(185, 75%, 39%);
+  --Very-dar-desaturated-blue: hsl(229, 23%, 23%);
+  --Dark-grayish-blue: hsl(227, 10%, 46%);
+
+  /* ### Neutral */
+
+  --Dark-gray: hsl(0, 0%, 59%);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Fraunces", serif;
+  font-family: "Kumbh Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-size: 63.4%;
+}
+
+body {
+  font-family: "Fraunces", serif;
+  font-family: "Kumbh Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  text-align: center;
+  background-image: url("./images/bg-pattern-top.svg"),
+    url("./images/bg-pattern-bottom.svg");
+  background-position: left top, bottom right;
+  background-position-x: -30rem , 140rem;
+  background-position-y:-16rem ,40rem;
+  background-size: 55rem;
+  background-repeat: no-repeat;
+  background-color: var(--Dark-cyan);
+}
+
+.Container {
+  margin: 0 auto;
+  max-width: 1110px;
+  width: 80%;
+}
+
+.Wraper {
+  border-radius: 0.8rem;
+  width: 24%;
+  max-width: 26%;
+  min-width: 20rem;
+  margin: auto;
+  margin-top: 7rem;
+  background-color: white;
+}
+
+.backImg {
+  background-image: url("./images/bg-pattern-card.svg");
+  height: 22vh;
+  background-position: center;
+  background-size: cover;
+  border-top-left-radius: 0.8rem;
+  border-top-right-radius: 0.8rem;
+}
+img {
+  border-radius: 50%;
+  position: relative;
+  bottom: 5rem;
+}
+
+.content {
+  margin-top: .5rem;
+  margin-bottom: 3rem;
+}
+h3{
+  font-size: 2rem;
+}
+h3 > span {
+  font-weight: lighter;
+  color: gray;
+}
+h4{
+  color: gray;
+}
+
+h5 {
+  padding: 1rem 0;
+}
+.hs {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1rem 0;
+}
+.spans {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 2rem;
+}
+
+
