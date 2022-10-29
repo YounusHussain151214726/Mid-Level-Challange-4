@@ -16,16 +16,12 @@
 }
 
 html {
-  font-family: "Fraunces", serif;
-  font-family: "Kumbh Sans", sans-serif;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Kumbh Sans', sans-serif;
   font-size: 63.4%;
 }
 
 body {
-  font-family: "Fraunces", serif;
-  font-family: "Kumbh Sans", sans-serif;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Kumbh Sans', sans-serif;
   font-size: 1.2rem;
   text-align: center;
   background-image: url("./images/bg-pattern-top.svg"),
@@ -80,7 +76,12 @@ h3 > span {
   color: gray;
 }
 h4{
+  color: black;
+font-size: 1.4rem;
+}
+h5{
   color: gray;
+  font-size: 1.2rem;
 }
 
 h5 {
@@ -97,4 +98,7 @@ h5 {
   padding-bottom: 2rem;
 }
 
+.spans span{
+  color: gray;
+}
 
